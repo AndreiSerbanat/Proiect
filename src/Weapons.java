@@ -25,7 +25,7 @@ public class Weapons {
     }
 
     public void storyStart(){
-        System.out.println("You enter the dungeon despite all the warnings you got from the villagers.\n The quest giver requested to leave your equipment before entering the dungeon.\n\n" +
+        System.out.println("You enter the dungeon despite all the warnings you got from the villagers.\nThe quest giver requested to leave your equipment before entering the dungeon.\n\n" +
                 "You usually wouldn't do this, but the man was very strict about the quest demands and you were confident in your strength and skills even as a beginner. \n\n\n" +
                 "\n\n\n" +
                 "Do you leave your equipment at the dungeon's door, or disobey the quest?\nPress 1 to Leave your equipment.\nPress 2 to Take the equipment with you.\n");
@@ -39,6 +39,8 @@ public class Weapons {
         }
         else if(x==2)
         {
+            System.out.println("You took the equipment with you, you hope you made the right decision...\nEntering the chamber you see an old wizard wearing a robe and leaning on his staff\n");
+
             System.out.println("\"So, you're the new challenger? Shame, I would've loved to see some action first, but it seems you already lost. Next time follow the rules!\"\n\n" +
                     "The last thing you see is the Wizard moving his staff. It lighted up and you felt a very strong and sharp pain.\n");
 
